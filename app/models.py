@@ -11,4 +11,4 @@ class Property(db.Model):
     price = db.Column(db.Integer)
     status = db.Column(db.String(25))
     image_url = db.Column(db.Text)
-    facilities = db.Column(db.Text)
+    facilities = db.Column(db.Text) 
